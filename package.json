@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "SerialPort MSP V2 parser",
   "main": "lib",
+  "source": "src/index.ts",
   "scripts": {
     "clean": "del-cli --force lib/*",
     "build": "tsc",
@@ -18,13 +19,12 @@
     },
     {
       "name": "e.luinstra"
+    },
+    {
+      "name": "sorokin0andrey"
     }
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eluinstra/serialport-parser-msp-v2.git"
-  },
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/rewire": "^2.5.28",
