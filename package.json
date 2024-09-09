@@ -2,12 +2,12 @@
   "name": "serialport-parser-msp-v2",
   "version": "1.0.0",
   "description": "SerialPort MSP V2 parser",
-  "main": "src",
-  "source": "src",
+  "main": "lib",
   "scripts": {
     "clean": "del-cli --force lib/*",
     "build": "tsc",
-    "test": "ts-node -O '{\"module\":\"commonjs\"}' node_modules/jest/bin/jest.js"
+    "test": "ts-node -O '{\"module\":\"commonjs\"}' node_modules/jest/bin/jest.js",
+    "postinstall": "tsc"
   },
   "keywords": [
     "msp",
