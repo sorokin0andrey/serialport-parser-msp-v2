@@ -6,8 +6,7 @@
   "scripts": {
     "clean": "del-cli --force lib/*",
     "build": "tsc",
-    "test": "ts-node -O '{\"module\":\"commonjs\"}' node_modules/jest/bin/jest.js",
-    "postinstall": "tsc"
+    "test": "ts-node -O '{\"module\":\"commonjs\"}' node_modules/jest/bin/jest.js"
   },
   "keywords": [
     "msp",
