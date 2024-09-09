@@ -2,8 +2,8 @@
   "name": "serialport-parser-msp-v2",
   "version": "1.0.0",
   "description": "SerialPort MSP V2 parser",
-  "main": "src/index.ts",
-  "source": "src/index.ts",
+  "main": "src",
+  "source": "src",
   "scripts": {
     "clean": "del-cli --force lib/*",
     "build": "tsc",
