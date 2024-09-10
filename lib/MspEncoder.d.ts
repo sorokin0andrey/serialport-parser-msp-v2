@@ -1,4 +1,5 @@
 /// <reference types="node" />
+/// <reference types="node" />
 import { Transform } from "stream";
 import { MspMsg } from "./Msp";
 export declare class MspEncoder extends Transform {
